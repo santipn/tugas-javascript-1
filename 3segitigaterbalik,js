@@ -1,0 +1,11 @@
+function printSegitiga(angka) { 
+    let hasil = "";
+    for (let i = angka; i >= 1; i--) {
+        for (let j = 1; j <= i; j++) {
+            hasil += (j+"") ;
+        }
+        hasil += "\n";
+    }
+    return hasil;
+}
+console.log(printSegitiga(6));
